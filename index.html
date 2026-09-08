@@ -1,3 +1,6 @@
+Here is your updated index.html file.
+The relative path for the author image has been updated to ./Assets/author_dimple.jpeg, and all UPI ID links and fallback placeholders have been updated to dimplelokhande@fam.
+To complete the QR update on GitHub, upload your new QR image into your Assets folder and name it upi_scanner_qr.png (overwriting the previous file).
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,12 +16,12 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Moony Sunflowers — Dimple">
   <meta property="og:description" content="Where handwritten letters, moonlit stories, and golden sunflowers bloom.">
-  <meta property="og:image" content="assets/moony_sunflowers_logo.png">
+  <meta property="og:image" content="./Assets/moony_sunflowers_logo.png">
   <meta property="og:url" content="https://moony-sunflowers.example/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Moony Sunflowers — Dimple">
   <meta name="twitter:description" content="Books, stories, snail mail, community writing and a monthly digital magazine.">
-  <meta name="twitter:image" content="assets/moony_sunflowers_logo.png">
+  <meta name="twitter:image" content="./Assets/moony_sunflowers_logo.png">
   <title>Moony Sunflowers | Dimple — Author, Poet & Writer</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +54,7 @@
   <header class="site-header">
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#home" aria-label="Moony Sunflowers home">
-        <span class="logo-wrap"><img src="assets/moony_sunflowers_logo.png" alt="Moony Sunflowers logo" onerror="this.style.display='none'; this.parentElement.classList.add('logo-fallback')"><span aria-hidden="true">☾🌻</span></span>
+        <span class="logo-wrap"><img src="./Assets/moony_sunflowers_logo.png" alt="Moony Sunflowers logo" onerror="this.style.display='none'; this.parentElement.classList.add('logo-fallback')"><span aria-hidden="true">☾🌻</span></span>
         <span><strong>Moony Sunflowers</strong><small>by Dimple</small></span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">☰</button>
@@ -93,15 +96,35 @@
     </section>
 
     <section class="marquee" aria-label="Site motto"><span>☾ read slowly</span><span>✦ write tenderly</span><span>🌻 send a little sunshine</span><span>☾ read slowly</span><span>✦ write tenderly</span></section>
-    <section id="about" class="section shell"><div class="about-card card"><div class="about-photo"><img src="assets/author_dimple.jpeg" alt="Dimple Dinesh Lokhande, author and poet" loading="lazy"></div><div class="about-copy"><p class="eyebrow">the person behind the pages</p><h2>Hello, I'm Dimple.</h2><p class="script big-script">writer • poet • collector of little feelings</p><p>Welcome to my tiny corner of the internet. I write poems and stories, collaborate on anthologies, share my reading and writing life, and love the slow magic of sending words out into the world.</p><div class="about-links"><a class="btn btn-primary" href="https://poetessdimple07.substack.com/" target="_blank" rel="noopener">Read my Substack ↗</a><a class="btn btn-ghost" href="https://www.instagram.com/dimple_writes07/" target="_blank" rel="noopener">Instagram ↗</a></div></div></div></section>
-
+    
+    <section id="about" class="section shell">
+      <div class="about-card card">
+        <div class="about-photo">
+          <img src="./Assets/author_dimple.jpeg" alt="Dimple Dinesh Lokhande, author and poet" loading="lazy">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">the person behind the pages</p>
+          <h2>Hello, I'm Dimple.</h2>
+          <p class="script big-script">writer • poet • collector of little feelings</p>
+          <p>Welcome to my tiny corner of the internet. I write poems and stories, collaborate on anthologies, share my reading and writing life, and love the slow magic of sending words out into the world.</p>
+          <div class="about-links">
+            <a class="btn btn-primary" href="https://poetessdimple07.substack.com/" target="_blank" rel="noopener">Read my Substack ↗</a>
+            <a class="btn btn-ghost" href="https://www.instagram.com/dimple_writes07/" target="_blank" rel="noopener">Instagram ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="book-nook" class="section shell">
       <div class="section-heading">
         <div><p class="eyebrow">the bookshelf by the window</p><h2>The Book Nook</h2></div>
         <p>Published pages, co-authored worlds, and books waiting for a home.</p>
       </div>
-      <div class="book-grid"><article class="book-card card tilt" data-tilt><div class="book-cover cover-one"><span>MY<br>KDP BOOK</span><small>DIMPLE DINESH LOKHANDE</small></div><div class="book-info"><p class="tiny">published work</p><h3>My KDP Book</h3><p>Find Dimple's published KDP book on Amazon and step into a world of words written from the heart.</p><div class="card-actions"><a class="btn btn-small" href="https://amzn.in/d/0ePmtwzo" target="_blank" rel="noopener">Buy on Amazon ↗</a><a class="text-link" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Signed copy ↗</a></div></div></article><article class="book-card card tilt" data-tilt><div class="book-cover cover-two"><span>WORDS<br>OF ESCAPE</span><small>CO-AUTHORED ANTHOLOGY</small></div><div class="book-info"><p class="tiny">co-authored anthology</p><h3>Words of Escape</h3><p>Dimple is a co-author of this poetry anthology. Discover the collection and find her work among its pages.</p><div class="card-actions"><a class="btn btn-small" href="https://amzn.in/d/070T1LPg" target="_blank" rel="noopener">Buy on Amazon ↗</a><a class="text-link" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Ask Dimple ↗</a></div></div></article><article class="book-card card tilt" data-tilt><div class="book-cover cover-three"><span>MORE<br>WORDS</span><small>READ • FOLLOW • DISCOVER</small></div><div class="book-info"><p class="tiny">writing elsewhere</p><h3>More from Dimple</h3><p>Explore poems, essays, features, and other writing across Substack, Medium, and literary profiles.</p><div class="card-actions"><a class="btn btn-small" href="https://poetessdimple07.substack.com/" target="_blank" rel="noopener">Read Substack ↗</a><a class="text-link" href="https://medium.com/@dimplewrites07" target="_blank" rel="noopener">Medium ↗</a></div></div></article></div></div>
+      <div class="book-grid">
+        <article class="book-card card tilt" data-tilt><div class="book-cover cover-one"><span>MY<br>KDP BOOK</span><small>DIMPLE DINESH LOKHANDE</small></div><div class="book-info"><p class="tiny">published work</p><h3>My KDP Book</h3><p>Find Dimple's published KDP book on Amazon and step into a world of words written from the heart.</p><div class="card-actions"><a class="btn btn-small" href="https://amzn.in/d/0ePmtwzo" target="_blank" rel="noopener">Buy on Amazon ↗</a><a class="text-link" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Signed copy ↗</a></div></div></article>
+        <article class="book-card card tilt" data-tilt><div class="book-cover cover-two"><span>WORDS<br>OF ESCAPE</span><small>CO-AUTHORED ANTHOLOGY</small></div><div class="book-info"><p class="tiny">co-authored anthology</p><h3>Words of Escape</h3><p>Dimple is a co-author of this poetry anthology. Discover the collection and find her work among its pages.</p><div class="card-actions"><a class="btn btn-small" href="https://amzn.in/d/070T1LPg" target="_blank" rel="noopener">Buy on Amazon ↗</a><a class="text-link" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Ask Dimple ↗</a></div></div></article>
+        <article class="book-card card tilt" data-tilt><div class="book-cover cover-three"><span>MORE<br>WORDS</span><small>READ • FOLLOW • DISCOVER</small></div><div class="book-info"><p class="tiny">writing elsewhere</p><h3>More from Dimple</h3><p>Explore poems, essays, features, and other writing across Substack, Medium, and literary profiles.</p><div class="card-actions"><a class="btn btn-small" href="https://poetessdimple07.substack.com/" target="_blank" rel="noopener">Read Substack ↗</a><a class="text-link" href="https://medium.com/@dimplewrites07" target="_blank" rel="noopener">Medium ↗</a></div></div></article>
+      </div>
     </section>
 
     <section id="stories" class="section paper-section">
@@ -167,8 +190,26 @@
 
     <section id="support" class="section support-section">
       <div class="shell support-layout">
-        <div><p class="eyebrow">the little sunflower jar</p><h2>Buy a Book or Support Moony Sunflowers 🌻</h2><p>Your support keeps the letters stamped, the stories growing, and this little corner of the internet alive.</p><div class="upi-details"><span>UPI ID</span><strong id="upiId">lokhandedimpal4@oksbi</strong><button id="copyUpi" class="copy-btn" type="button">Copy UPI ID</button></div><div class="pay-actions"><a class="btn btn-primary" id="upiPay" href="upi://pay?pa=lokhandedimpal4%40oksbi&pn=Dimple%20Lokhande&cu=INR">Pay via UPI</a><a class="btn btn-ghost" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Send payment screenshot ↗</a></div><p class="tiny">On supported phones, the UPI button can open an installed payment app. Replace the placeholder UPI ID before launch.</p></div>
-        <div class="scanner-card card"><div class="scanner-frame"><img src="assets/upi_scanner_qr.png" alt="UPI payment QR code" onerror="this.style.display='none'; this.parentElement.classList.add('qr-placeholder')"><span>ADD YOUR<br>UPI QR</span></div><p>Scan • pay • send a screenshot on Instagram</p></div>
+        <div>
+          <p class="eyebrow">the little sunflower jar</p>
+          <h2>Buy a Book or Support Moony Sunflowers 🌻</h2>
+          <p>Your support keeps the letters stamped, the stories growing, and this little corner of the internet alive.</p>
+          <div class="upi-details">
+            <span>UPI ID</span>
+            <strong id="upiId">dimplelokhande@fam</strong>
+            <button id="copyUpi" class="copy-btn" type="button">Copy UPI ID</button>
+          </div>
+          <div class="pay-actions">
+            <a class="btn btn-primary" id="upiPay" href="upi://pay?pa=dimplelokhande%40fam&pn=Dimple%20Lokhande&cu=INR">Pay via UPI</a>
+            <a class="btn btn-ghost" href="https://ig.me/m/dimple_writes07" target="_blank" rel="noopener">Send payment screenshot ↗</a>
+          </div>
+        </div>
+        <div class="scanner-card card">
+          <div class="scanner-frame">
+            <img src="./Assets/upi_scanner_qr.png" alt="UPI payment QR code" onerror="this.style.display='none'; this.parentElement.classList.add('qr-placeholder')">
+          </div>
+          <p>Scan • pay • send a screenshot on Instagram</p>
+        </div>
       </div>
     </section>
   </main>
@@ -192,3 +233,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
